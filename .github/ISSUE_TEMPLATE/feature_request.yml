@@ -1,0 +1,12 @@
+# © 2026 Mike Pollow, Digitalroots. Alle Rechte vorbehalten.
+name: Idea
+description: A change or a new feature.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should change, and what would it help with?
+    validations:
+      required: true

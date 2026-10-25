@@ -1,0 +1,6 @@
+# © 2026 Mike Pollow, Digitalroots. Alle Rechte vorbehalten.
+blank_issues_enabled: true
+contact_links:
+  - name: Security problem
+    url: https://github.com/MikeGT4/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately, not in a public issue.

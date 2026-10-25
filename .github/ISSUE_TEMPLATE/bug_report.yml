@@ -1,0 +1,24 @@
+# © 2026 Mike Pollow, Digitalroots. Alle Rechte vorbehalten.
+name: Bug report
+description: Something does not work as described.
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you use.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      description: Operating system and terminal or app version.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: What you did, what you expected and what happened instead.
+    validations:
+      required: true
